@@ -35,7 +35,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="#">
+        <Navbar.Brand as={Link} to="/">
           <MdDeveloperMode style={{ marginBottom: "2px" }} /> Rasedul Islam
         </Navbar.Brand>
         <Navbar.Toggle
